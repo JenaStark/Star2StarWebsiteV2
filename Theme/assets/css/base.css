@@ -1,6 +1,18 @@
-#content {
-  margin: 0;
+#unseen {
+  margin: 0 auto;
   text-align: center;
+  align-self: center;
+}
+#unseen form {
+  padding-bottom: 15px;
+  align-self: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#unseen form input {
+  margin: 0 auto;
+
 }
 body input {
   text-align: center;

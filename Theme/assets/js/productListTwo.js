@@ -32,12 +32,12 @@ var Comment = React.createClass({
 
         return (
                 <tr>
-                    <td>{this.props.posted}</td>
-                    <td>{this.props.author}</td>
-                    <td dangerouslySetInnerHTML={this.rawMarkup()}>{this.props.text}</td>
-                    <td>{this.props.start}</td>
-                    <td>{this.props.end}</td>
-                    <td>{status}</td>
+                    <td class ="numeric">{this.props.posted}</td>
+                    <td class ="numeric">{this.props.author}</td>
+                    <td class = "numeric" dangerouslySetInnerHTML={this.rawMarkup()}>{this.props.text}</td>
+                    <td class = "numeric">{this.props.start}</td>
+                    <td class= "numeric">{this.props.end}</td>
+                    <td class="numeric">{status}</td>
 
                     <td><input
                         type="checkbox"
@@ -184,7 +184,7 @@ var CommentList = React.createClass({
         return (
             <div className="commentList">
 
-                <table id="productTable">
+                <table class="table table-bordered table-striped table-condensed">
 
                     <thead>
                     <tr>
@@ -209,6 +209,6 @@ var CommentList = React.createClass({
 
 ReactDOM.render(
     <CommentBox url="/api/comments" pollInterval={2000} />,
-    document.getElementById('content')
+    document.getElementById('unseen')
 );
 
