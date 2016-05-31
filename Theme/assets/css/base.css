@@ -1,0 +1,39 @@
+#content {
+  margin: 0;
+  text-align: center;
+}
+body input {
+  text-align: center;
+}
+table {
+  width:100%;
+}
+
+#productTable, th, td {
+  border: 1px solid slategray;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+table#productTable tr:nth-child(even) {
+  background-color: #eee;
+}
+table#productTable tr:nth-child(odd) {
+  background-color:#fff;
+}
+
+table#productTable th	{
+  background-color: #ffbe2f;
+  text-align: center;
+  color: white;
+}
+
+#productCategoryRow, th {
+  text-align: center;
+  width: 100px;
+  row-span: 100;
+}
