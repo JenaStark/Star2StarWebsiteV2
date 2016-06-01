@@ -32,12 +32,12 @@ var Comment = React.createClass({
 
         return (
                 <tr>
-                    <td class ="numeric">{this.props.posted}</td>
-                    <td class ="numeric">{this.props.author}</td>
-                    <td class = "numeric" dangerouslySetInnerHTML={this.rawMarkup()}>{this.props.text}</td>
-                    <td class = "numeric">{this.props.start}</td>
-                    <td class= "numeric">{this.props.end}</td>
-                    <td class="numeric">{status}</td>
+                    <td>{this.props.posted}</td>
+                    <td>{this.props.author}</td>
+                    <td dangerouslySetInnerHTML={this.rawMarkup()}>{this.props.text}</td>
+                    <td>{this.props.start}</td>
+                    <td>{this.props.end}</td>
+                    <td>{status}</td>
 
                     <td><input
                         type="checkbox"
@@ -60,7 +60,7 @@ var SearchBar = React.createClass({
     },
     render: function() {
         return (
-            <div>
+            <div id = "tabletop">
 
                 <form>
                     <input
@@ -182,11 +182,11 @@ var CommentList = React.createClass({
 
 
         return (
-            <div className="commentList">
+            <div class="commentList">
 
-                <table class="table table-bordered table-striped table-condensed">
+            <table id="productTable">
 
-                    <thead>
+            <thead>
                     <tr>
                         <th>Posted Date</th>
                         <th>Name</th>

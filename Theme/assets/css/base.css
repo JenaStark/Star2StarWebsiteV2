@@ -7,12 +7,15 @@
   padding-bottom: 15px;
   align-self: center;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 #unseen form input {
   margin: 0 auto;
 
+}
+#tabletop {
+  padding-bottom: 10px;
 }
 body input {
   text-align: center;
@@ -20,7 +23,9 @@ body input {
 table {
   width:100%;
 }
-
+#productTable {
+  padding-top: 10px;
+}
 #productTable, th, td {
   border: 1px solid slategray;
   border-collapse: collapse;
@@ -39,9 +44,9 @@ table#productTable tr:nth-child(odd) {
 }
 
 table#productTable th	{
-  background-color: #ffbe2f;
+  background-color: #ffd777;
   text-align: center;
-  color: white;
+  color: #5d6069;
 }
 
 #productCategoryRow, th {

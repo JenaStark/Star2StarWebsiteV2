@@ -1,5 +1,5 @@
 /*Unseen Column*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 940px) {
     #unseen table td:nth-child(1),
     #unseen table th:nth-child(1) {display: none;}
 }
