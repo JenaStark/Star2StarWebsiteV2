@@ -124,6 +124,7 @@ var CommentForm = React.createClass({
         var start = this.state.start.trim();
         var end = this.state.end.trim();
         var date = new Date();
+        var localdate = date.toLocaleString();
         var status = false;
         if (!text || !author || !start || !end) {
             return;
@@ -134,7 +135,7 @@ var CommentForm = React.createClass({
             }
 
 
-        this.props.onCommentSubmit({author: author, text: text, start: start, end: end, posted: new Date(), status: status, completed: 'false'});
+        this.props.onCommentSubmit({author: author, text: text, start: start, end: end, posted: localdate, status: status, completed: 'false'});
         this.setState({author: '', text: '', start: '', end: '', status: ''});
     },
     render: function() {

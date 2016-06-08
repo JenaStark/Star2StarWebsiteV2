@@ -18,6 +18,22 @@ body {
     margin: 0px !important;
     font-size:13px;
 }
+#body {
+    align-self: center;
+}
+#about {
+    margin: 0 auto;
+    width: 80%;
+    align-self: center;
+    float: inherit;
+    align-items: center;
+}
+
+#about img {
+    margin: 0 auto;
+    align-self: center;
+
+}
 
 ul li {
     list-style: none;
@@ -2240,7 +2256,12 @@ label {
     min-height: 900px;
 }
 
-
+#content {
+    align-self: center;
+    margin: 0 auto;
+    width: 88%;
+    float: right;
+}
 #main-content form {
     margin: 0 auto;
     padding: 0 0 0;
@@ -2248,6 +2269,11 @@ label {
     align-self: center;
 }
 
+#dates {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
 
 #main-content form input, #main-content form textarea {
     border: 2px solid #959595;
@@ -2259,14 +2285,14 @@ label {
     padding: 20px 10px;
     text-align: center;
     width: 80%;
-    margin-left: 100px;
     margin-top: 12px;
     align-items: center;
+    align-self: center;
 }
 #main-content form #startdatetext {
     margin-right: 2%;
     font-weight: bold;
-    margin-left: 11%;
+    margin-left: 9%;
 }
 #main-content form #start {
     width: 21%;
