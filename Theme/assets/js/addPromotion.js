@@ -140,7 +140,7 @@ var CommentForm = React.createClass({
     },
     render: function() {
         return (
-            <form class="commentForm" onSubmit={this.handleSubmit}>
+            <form class="form-horizontal style-form" onSubmit={this.handleSubmit}>
                 <input class = "form"
                        type="text"
                        placeholder="PROMOTION NAME"
